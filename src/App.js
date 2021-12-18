@@ -34,7 +34,7 @@ function App() {
         [0, 4, 8],
         [2, 4, 6],
     ];
-    console.log('Class: App, Function: checkWinner ==', game[0], game[1], game[2]);
+
     for (let i = 0; i < lines.length; i++) {
         const [a, b, c] = lines[i];
         if (game[a] && game[a] === game[b] && game[a] === game[c]) {
